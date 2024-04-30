@@ -1,14 +1,13 @@
 
 # Denoising Diffusion Probabilistic Model in Flax 
 
-This implementation is based on [lucidrains](https://github.com/lucidrains)'s [denoising-diffusion-pytorch](https://github.com/lucidrains/denoising-diffusion-pytorch), where he implemented the original DDPM model proposed from paper [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239), as well as latest research findings
+This implementation is cloned from [yiyixuxu](https://github.com/yiyixuxu/denoising-diffusion-flax) which is again based on [lucidrains](https://github.com/lucidrains)'s [denoising-diffusion-pytorch](https://github.com/lucidrains/denoising-diffusion-pytorch), where he implemented the original DDPM model proposed from paper [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239), as well as latest research findings
 
-## end-to-end training on colab notebook 
+## End-to-end training on colab notebook 
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/yiyixuxu/denoising-diffusion-flax/blob/main/ddpm_flax_oxford102_end_to_end.ipynb)
 
-
-You can run this code and even modify it directly in Google Colab, no installation required:
+Colab Notebook:
 
 [https://github.com/yiyixuxu/denoising-diffusion-flax/blob/main/ddpm_flax_oxford102_end_to_end.ipynb]
 
@@ -17,7 +16,6 @@ The Colab also demonstrates how to configure your own training and load pre-trai
 ## Contents
 
 - [Running locally](https://github.com/yiyixuxu/denoising-diffusion-flax/edit/main/README.md#running-locally) 
-- [Using Google Cloud TPU](#google-cloud-tpu)
 - [Examples](#examples)
 - [pre-trained model](load-a-model-checkpoint-from-W&B)
 - [Train your own model](#train-your-own-model)
